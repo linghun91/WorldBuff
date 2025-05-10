@@ -1,0 +1,10 @@
+# WorldBuff 消息配置文件
+
+prefix: "&7[&bWorldBuff&7] "
+enter-world: "&a你进入了世界 &e{world}&a，获得了世界增益效果！"
+leave-world: "&c你离开了世界 &e{world}&c，失去了世界增益效果！"
+enter-region: "&a你进入了区域 &e{region}&a，获得了区域增益效果！"
+leave-region: "&c你离开了区域 &e{region}&c，失去了区域增益效果！"
+reload-success: "&a插件重载成功！"
+no-permission: "&c你没有权限执行此命令！"
+worldguard-not-found: "&c未检测到WorldGuard插件，区域增益功能已禁用！"

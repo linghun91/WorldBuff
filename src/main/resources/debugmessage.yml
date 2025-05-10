@@ -1,0 +1,10 @@
+# WorldBuff 调试消息配置文件
+
+apply-buff: "正在为玩家 {player} 应用世界 {world} 的增益效果"
+remove-buff: "正在为玩家 {player} 移除世界 {world} 的增益效果"
+apply-region-buff: "正在为玩家 {player} 应用区域 {region} 的增益效果"
+remove-region-buff: "正在为玩家 {player} 移除区域 {region} 的增益效果"
+config-loaded: "配置文件已加载"
+buff-values: "世界 {world} 的增益值: 生命值={health}, 伤害={damage}, 速度={speed}, 跳跃={jump}"
+region-buff-values: "区域 {region} 的增益值已加载"
+worldguard-hook: "WorldGuard集成已{status}"

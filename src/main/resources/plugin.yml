@@ -1,0 +1,22 @@
+name: WorldBuff
+version: '${version}'
+main: cn.i7mc.worldbuff.WorldBuff
+api-version: '1.20'
+authors: [Saga]
+description: A world buff plugin for Minecraft
+softdepend: [WorldGuard, WorldEdit]
+
+commands:
+  worldbuff:
+    description: WorldBuff main command
+    usage: /worldbuff
+    aliases: [wb]
+    permission: worldbuff.command
+
+permissions:
+  worldbuff.command:
+    description: Allows using the WorldBuff command
+    default: true
+  worldbuff.reload:
+    description: Allows reloading the plugin
+    default: op

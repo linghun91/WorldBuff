@@ -1,0 +1,47 @@
+# WorldBuff 配置文件
+
+# 调试模式
+debug: false
+
+# WorldGuard集成
+worldguard:
+  enabled: true  # 是否启用WorldGuard集成
+  check-interval: 20  # 检查玩家是否在区域内的间隔（刻）
+
+# 世界增益配置
+world-buffs:
+  world:  # 世界名称
+    UNCRAFTABLE: 1.0  # 无法合成的药水效果
+    WATER: 1.0  # 水瓶效果
+    MUNDANE: 1.0  # 平凡的药水效果
+    THICK: 1.0  # 浓稠的药水效果
+    AWKWARD: 1.0  # 粗制的药水效果
+    NIGHT_VISION: 1.0  # 夜视效果
+    INVISIBILITY: 1.0  # 隐身效果
+    JUMP: 1.0  # 跳跃提升效果
+    FIRE_RESISTANCE: 1.0  # 抗火效果
+    SPEED: 1.0  # 速度效果
+    SLOWNESS: 1.0  # 缓慢效果
+    WATER_BREATHING: 1.0  # 水下呼吸效果
+    INSTANT_HEAL: 1.0  # 瞬间治疗效果
+    INSTANT_DAMAGE: 1.0  # 瞬间伤害效果
+    POISON: 1.0  # 中毒效果
+    REGEN: 1.0  # 生命恢复效果
+    STRENGTH: 1.0  # 力量效果
+    WEAKNESS: 1.0  # 虚弱效果
+    LUCK: 1.0  # 幸运效果
+    TURTLE_MASTER: 1.0  # 龟壳效果（抗性提升+缓慢）
+    SLOW_FALLING: 1.0  # 缓降效果
+  world_nether:  # 下界世界
+    JUMP: 2.0  # 跳跃提升效果
+
+# WorldGuard区域增益配置
+region-buffs:
+  example_region:  # 区域ID
+    NIGHT_VISION: 2.0  # 夜视效果
+    SPEED: 2.0  # 速度效果
+    JUMP: 2.0  # 跳跃提升效果
+    FIRE_RESISTANCE: 2.0  # 抗火效果
+  pvp_arena:  # 区域ID
+    STRENGTH: 2.0  # 力量效果
+    SPEED: 1.5  # 速度效果
